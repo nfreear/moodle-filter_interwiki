@@ -56,12 +56,13 @@ function _filter_interwiki_callback($matches) {
           //Error.
         }
         $uri  = str_replace("\$$type", $page, $base);
+        $rel  = 0==strpos($uri, 'license') ? '' : 'rel="license"';
         $host = str_replace(array('www.', 'en.'), '', parse_url($uri, PHP_URL_HOST));
         $class= str_replace(array(' ','/'), array('-',' '), $name);
         $class= "interwiki p-$prefix iw-$class ".str_replace('.', '-', $host);
         $title= get_string('onhost', 'filter_interwiki', ucfirst($host));
 
-        return "<a class='$class' title='$title' href='$uri'>$text</a>";
+        return "<a class='$class' title='$title' $rel href='$uri'>$text</a>";
     }
 }
 

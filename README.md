@@ -1,7 +1,7 @@
 Interwiki
 =========
 
-A Moodle filter plug-in to easily add internal and external links (see, http://en.wikipedia.org/wiki/Interwiki)
+A Moodle filter plug-in to easily add internal and external links (see, <http://en.wikipedia.org/wiki/Interwiki>)
 
 
 Installation
@@ -48,6 +48,7 @@ Notes
 * No javascript, no database access - very simple!
 * Filter syntax is case-sensitive.
 * The plug-in is internationalized in Moodle 2.
+* Inspired by <http://drupal.org/project/interwiki> - thanks!
 
 Notices
 -------
