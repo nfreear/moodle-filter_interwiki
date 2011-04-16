@@ -28,7 +28,8 @@ function interwiki_filter($courseid, $text) {
     $newtext = $text; // we need to return the original value if regex fails!
 
     if (!empty($CFG->filter_interwiki_prefix_0)) {
-        $search = '#\[:([a-z]+):([\w -_\/\.]+)(\|[\w -]+)?\]#ms';
+        // [[prefix:Page Name| Optional label]]
+        $search = '#\[\[([a-z]+):([\w -_\/\.]+)(\|[\w -]+)?\]\]#ms';
         $newtext = preg_replace_callback($search, '_filter_interwiki_callback', $newtext);
     }
     return $newtext;
