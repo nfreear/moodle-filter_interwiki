@@ -7,7 +7,9 @@
  * @package interwiki
  */
 defined('MOODLE_INTERNAL') || die();
-define('INTERWIKI_LIMIT', 15);
+if (!defined('INTERWIKI_LIMIT')) {
+  define('INTERWIKI_LIMIT', 15);
+}
 
 /* Placeholder characters:
   $1 - ' ' to '_', eg. Wikipedia.

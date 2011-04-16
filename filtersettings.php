@@ -7,7 +7,9 @@
  * @package interwiki
  */
 defined('MOODLE_INTERNAL') || die();
-define('INTERWIKI_LIMIT', 15);
+if (!defined('INTERWIKI_LIMIT')) {
+  define('INTERWIKI_LIMIT', 15);
+}
 
 /*
 http://en.wikipedia.org/wiki/Interwiki
@@ -26,7 +28,7 @@ $interwiki_defaults = array(
   'w'  => array(
     'uri'  =>'http://en.wikipedia.org/wiki/$1',
     'label'=>'On Wikipedia [en]'),
-  'wmc'=> array(
+  'wm'=> array(
     'uri'  =>'http://commons.wikimedia.org/wiki/File:$1'),
   'g'  => array(
     'uri'  =>'http://www.google.com/search?q=%22$2%22'),
@@ -66,7 +68,7 @@ foreach ($interwiki_defaults as $prefix => $wiki) {
     $count++;
 }
 
-// Add some empty ones at the end.
+// Add some empty fields at the end.
 for ($idx = $count; $idx < INTERWIKI_LIMIT; $idx++) {
     $items[] = new admin_setting_configtext("filter_interwiki_prefix_$idx",
         "$idx. ".get_string('prefix', 'filter_interwiki'),
