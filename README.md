@@ -11,7 +11,8 @@ To install (on Moodle 2):
 1. Un-compress the Zip/Gzip archive, and copy the folder renamed 'interwiki' to your moodle/filter/ directory.
 2. Log in to Moodle as admininstrator, go to Site Administration | Plugins | Filters | Manage Filters.
 3. Choose 'On' or 'Off but available' in the drop-down menu next to 'Interwiki'.
-4. Go to the Filter settings page and define prefixes and URL patterns.
+4. Go to the Filter settings page and define your prefixes and URL patterns.
+5. To include the styles, visit Site Administration | Appearance | Themes | Theme selector and press the 'Clear theme caches' button.
 
 Use these placeholders in the URL patterns:
 
