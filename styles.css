@@ -1,3 +1,4 @@
+/*Interwiki links.*/
 a.interwiki{
   background-repeat:no-repeat; background-position:left; padding-left:18px;
   background-image:url(../filter/interwiki/pix/external.png);
@@ -6,7 +7,7 @@ a.interwiki{
 .interwiki.commons-wikimedia-org{background-image:url(http://commons.wikimedia.org/favicon.ico)}
 .interwiki.google-com,
 .interwiki.p-gd{background-image:url(http://www.google.com/favicon.ico)}
-.interwiki.yahoo-com{background-image:url(http://www.yahoo.com/favicon.ico)}
+.interwiki.yahoo-com{background-image:url(http://yahoo.com/favicon.ico)}
 .interwiki.moodle-org,
 .interwiki.p-md{background-image:url(standard/pix/favicon.ico)}
 .interwiki.docs-moodle-org{background-image:url(../pix/docs.gif)}
@@ -17,5 +18,10 @@ a.interwiki{
 .interwiki.bitbucket-org{background-image:url(https://bitbucket.org/favicon.ico)}
 
 ._iw{cursor:url(../filter/interwiki/pix/external-png.cur), pointer;}
-._iw-by {background-image:url(http://i.creativecommons.org/l/by/3.0/80x15.png)}
+
+/*Creative Commons.*/
+.interwiki.p-cc{display:inline-block; padding-left:80px; width:1px; height:15px; overflow:hidden;}
+.interwiki.iw-by{background-image:url(http://i.creativecommons.org/l/by/3.0/80x15.png)}
+.interwiki.iw-by-sa{background-image:url(http://i.creativecommons.org/l/by-sa/3.0/80x15.png)}
+.interwiki.iw-by-sa-nc{background-image:url(http://i.creativecommons.org/l/by-sa-nc/3.0/80x15.png)}
 
