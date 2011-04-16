@@ -51,6 +51,7 @@ function _filter_interwiki_callback($matches) {
         $type = 0;
         if (preg_match('/\$(\d)/', $base, $sub)) {
           $type = $sub[1];
+          // Placeholders: .. $1, $2.. $5.
           $replace= array(' ', '_', '+', '%20', '-', '');
           $page = str_replace(' ', $replace[$type], $name);
         } else {

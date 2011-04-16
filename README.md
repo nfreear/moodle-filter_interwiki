@@ -27,21 +27,21 @@ Usage
 -----
 Generally, the syntax for a link is:
 
-    [:prefix:Page Name| Optional label]
+    [[prefix:Page Name| Optional label]]
 
 For example:
 
-    [:gd:rabbit] - A Google dictionary definition.
-    [:md:Question types] - A Moodle Docs page.
-    [:tw:nfreear/status/58097660837642240| A Twitter status]
-    [:my:A page] - My School's pages.
+    [[gd:rabbit]] - A Google dictionary definition.
+    [[md:Question types]] - A Moodle Docs page.
+    [[tw:nfreear/status/58097660837642240| A Twitter status]]
+    [[my:A page]] - Your School's pages.
 
 
 Links
 -----
 * Moodle plugin page: <http://moodle.org/mod/data/view.php?d=13&rid=X>
 * Code, Git: <https://github.com/nfreear/moodle-filter_interwiki>
-* Demo (todo): <http://freear.org.uk/moodle>
+* Demo: <http://freear.org.uk/moodle>
 
 Notes
 -----
