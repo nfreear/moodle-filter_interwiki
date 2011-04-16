@@ -4,7 +4,7 @@ a.interwiki{
   background-image:url(../filter/interwiki/pix/external.png);
 }
 .interwiki.wikipedia-org{background-image:url(http://en.wikipedia.org/favicon.ico)}
-.interwiki.commons-wikimedia-org{background-image:url(http://commons.wikimedia.org/favicon.ico)}
+.interwiki.commons-wikimedia-org{background-image:url(../filter/interwiki/pix/wm-commons.png)}
 .interwiki.google-com,
 .interwiki.p-gd{background-image:url(http://www.google.com/favicon.ico)}
 .interwiki.yahoo-com{background-image:url(http://yahoo.com/favicon.ico)}
@@ -15,7 +15,7 @@ a.interwiki{
 .interwiki.p-cc{background-image:url(http://creativecommons.org/favicon.ico)}
 .interwiki.gnu-org{background-image:url(http://www.gnu.org/favicon.ico)}
 .interwiki.github-com{background-image:url(https://github.com/favicon.ico)}
-.interwiki.bitbucket-org{background-image:url(https://bitbucket.org/favicon.ico)}
+.interwiki.bitbucket-org{background-image:url(../filter/interwiki/pix/bitbucket.png)}
 
 ._iw{cursor:url(../filter/interwiki/pix/external-png.cur), pointer;}
 
