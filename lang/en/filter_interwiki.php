@@ -6,7 +6,7 @@
  * @copyright (c) 2011 Nicholas Freear {@link http://freear.org.uk}.
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v2 or later
  */
-$string['filtername'] = 'Interwiki';
+$string['filtername'] = 'Interwiki links';
 
 $string['prefix']  = 'Prefix';
 $string['prefhelp']= 'lowercase letters';
